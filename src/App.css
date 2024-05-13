@@ -1,0 +1,10 @@
+*{
+    letter-spacing:0.2px;
+    font-family: "Bai Jamjuree", sans-serif;
+
+}
+
+.app{
+    background: linear-gradient(183deg, #0068ff30 3.19%, #0068ffb3 38.42%, #0068ff 103.25%);
+    min-height: 100vh;
+}

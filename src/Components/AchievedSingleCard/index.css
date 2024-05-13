@@ -1,0 +1,6 @@
+.achieved-Card-container{
+    border-radius: 20px;
+    background: linear-gradient(180deg, #192bc2 0%, rgba(25, 123, 215, 0.056) 100%);
+    padding: 2.5vw;
+    padding-bottom: 1.7vw;
+}
