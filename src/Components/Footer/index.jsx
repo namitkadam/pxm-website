@@ -47,7 +47,7 @@ function Footer(params) {
             </ul>
           </div>
         </div>
-        <div className="border-t-[1.5px] border-white ">
+        <div className="border-t-[1.5px] border-white">
           <div className="w-[88%] py-[0.55vw] flex m-auto justify-between items-center flex-col md:flex-row text-white">
             <h5>
               <a href="" className="mr-[5px] hover:underline">
