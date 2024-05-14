@@ -7,7 +7,7 @@ function Achieved(params) {
     <>
       <div className=" w-[83%] m-auto pb-[7vw]">
         <Title title="WHAT WE HAVE ACHIEVED" />
-        <div className="flex justify-between">
+        <div className="flex justify-between flex-col md:flex-row md:gap-0 gap-6">
           <AchievedSingleCard
             src={achievedLogo}
             paragraph="Servicio de ON-RAMP & OFF-RAMP en México"

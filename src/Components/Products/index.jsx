@@ -6,7 +6,7 @@ import accessible from "../../Img/accessible.png";
 function Products(params) {
   return (
     <>
-      <div className="flex justify-between w-[83%] m-auto">
+      <div className="flex justify-between flex-col gap-4 md:flex-row w-[83%] m-auto">
         <SingleCard
           src={intuitive}
           title="Intuitiva"

@@ -6,16 +6,16 @@ function ProductCard(params) {
     <>
       <Title title="Products" />
       <div className="w-[82.7%] m-auto pb-[7vw]">
-        <div className="flex justify-between items-start">
-          <div className="w-[30%]">
+        <div className="flex justify-between flex-col items-start md:flex-row">
+          <div className="max-w-[70%] md:w-[30%] m-auto">
             <img src={mobile} alt="" />
           </div>
-          <div className="w-[60%] text-white">
-            <div className="flex flex-col leading-[3vw] text-[3.6vw] font-bold">
+          <div className="md:w-[60%] w-full text-white">
+            <div className="flex flex-col md:leading-[3vw] leading-[4vw] md:text-[3.6vw] text-[4.5vw] font-bold">
               <h2 className="text-black">PXM</h2>
               <span>Xchange</span>
             </div>
-            <h6 className="text-[1.12vw] font-bold leading-none my-[1.3vw]">
+            <h6 className="md:text-[1.12vw] text-[2vw] font-bold leading-none my-[1.3vw]">
               Buy and sell crypto like making a sandwich.
             </h6>
             <p className="mb-[1.3vw]">

@@ -12,7 +12,7 @@ function Futures(params) {
           title="HAVING A VISION FOR THE FUTURE"
           subTitle="WE ARE DEVELOPING MORE SOLUTIONS THAT WILL FACILITATE YOUR TRANSACTIONS WITHOUT BORDERS"
         />
-        <div className="m-auto w-[83.5%] pt-[2vw] flex justify-between">
+        <div className="m-auto w-[83.5%] pt-[2vw] flex justify-between flex-col md:flex-row gap-4 md:gap-0">
           <SingleCard
             src={token}
             alt="PXM Token"

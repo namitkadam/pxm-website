@@ -11,7 +11,7 @@ function Hub(params) {
           title="WE HAVE A HUB"
           subTitle="To take our services to the next level."
         />
-        <div className="flex gap-[1.5vw]">
+        <div className="flex md:gap-[1.5vw] flex-col md:flex-row gap-[4vw]">
           <HubCard
             title="PXM OTC"
             src={otc}
