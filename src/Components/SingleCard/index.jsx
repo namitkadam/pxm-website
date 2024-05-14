@@ -1,4 +1,3 @@
-import log from "../../Img/pxmLog.png";
 import "../SingleCard/index.css";
 
 function SingleCard({ src, title, paragraph, alt }) {
