@@ -3,10 +3,10 @@ import log from "../../Img/pxmLog.png";
 function Footer(params) {
   return (
     <>
-      <footer className="w-[93.7%] m-auto bg-[#121244] rounded-[20px_20px_0px_0px]">
+      <footer className="w-[93.7%] m-auto bg-[#121244] rounded-[20px_20px_0px_0px] pt-2">
         <div className="flex justify-between items-stretch w-[88%] m-auto py-[1.6vw] flex-col md:flex-row gap-4 md:gap-0">
           <div className="md:w-[33%] w-full">
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 mb-2">
               <img src={log} className="h-10" />
               <div className="font-semibold text-xl text-white">Pxm</div>
             </div>
@@ -47,7 +47,7 @@ function Footer(params) {
             </ul>
           </div>
         </div>
-        <div className="border-t-[1.5px] border-white">
+        <div className="border-t-[1.5px] border-white ">
           <div className="w-[88%] py-[0.55vw] flex m-auto justify-between items-center flex-col md:flex-row text-white">
             <h5>
               <a href="" className="mr-[5px] hover:underline">
